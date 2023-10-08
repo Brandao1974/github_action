@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "2a0885c9-22f7-4059-b271-5c16e85e9254",
+		"name": "Teste_de_hoje",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23163493",
+		"_collection_link": "https://www.postman.com/aviation-explorer-14647993/workspace/api-week-3/collection/23163493-2a0885c9-22f7-4059-b271-5c16e85e9254?action=share&source=collection_link&creator=23163493"
+	},
+	"item": [
+		{
+			"name": "Teste_GET_Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Int}}/products/",
+					"host": [
+						"{{Int}}"
+					],
+					"path": [
+						"products",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Teste_GET_Products_ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Int}}/products/8",
+					"host": [
+						"{{Int}}"
+					],
+					"path": [
+						"products",
+						"8"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
